@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Zoo HTML (Components Rendered in CMS)</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        
+        <!-- Start RAPID Injection -->
+        <script src="http://localhost:9632/~rapid/edit/sample-zoo-static"></script>
+        <!-- End RAPID Injection-->
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="css/global.css" rel="stylesheet">
+        <link href="css/pages.css" rel="stylesheet">
+        <link href="css/components.css" rel="stylesheet">
+    </head>
+        
+    <body>    
+        <div class="container">
+            <ul class="group">            
+                <li>
+                
+                    <div class="animal-card animal-card-cms"
+                         data-designmode="card-one">
+                        <h3>Panda</h3>
+                        <img src="img/panda.png" alt="">
+                        <p>Panda description</p>            
+                    </div>
+                    
+                </li>
+                
+                <li>
+                
+                    <div class="animal-card animal-card-cms"
+                         data-designmode="card-two">
+                        <h3>Elephant</h3>
+                        <img src="img/elephant.png" alt="">
+                        <p>Elephant description</p>            
+                    </div>
+                    
+                </li>                
+            </ul>
+            
+            <div class="button-list">
+                <a class="button" 
+                   href="index.html" 
+                   data-designmode="see-homepage-btn">Homepage</a>
+                <a class="button" 
+                   href="aquatic.html" 
+                   data-designmode="see-aquatic-btn">Aquatic</a>
+            </div>
+        </div>        
+    </body>
+</html>
