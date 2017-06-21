@@ -1,6 +1,6 @@
 {
   "name": "sample-zoo-static",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple static site that leverages RAPID for authoring",
   "main": "app.js",
   "scripts": {
